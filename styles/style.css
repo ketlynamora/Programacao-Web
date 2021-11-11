@@ -191,6 +191,19 @@ body {
     margin: 1rem;
   }
 
+  #idUm {
+    background: rgb(240, 198, 226);
+  }
+
+  #idDois {
+    background: rgb(184, 19, 19);
+    color: #f0f0f0;
+  }
+
+  #idTres {
+    background: rgb(224, 221, 36);
+  }
+
   .food-title {
     position: absolute;
     right: 0;
@@ -234,10 +247,23 @@ body {
 
 .content {
   position: relative;
-  background-color: #8d8a8afe;
+  background-color: #8a8888fe;
   border-radius: 0.5rem;
   border: 1px solid #bdb6b6;
   margin: 1rem;
+}
+
+#idUm {
+  background: rgb(240, 198, 226);
+}
+
+#idDois {
+  background: rgb(184, 19, 19);
+  color: #f0f0f0;
+}
+
+#idTres {
+  background: rgb(224, 221, 36);
 }
 
 .food-title {
