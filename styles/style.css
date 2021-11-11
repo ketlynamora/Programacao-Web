@@ -1,0 +1,245 @@
+/* Everything */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Responsive Declarations */
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  
+  /* Fonts */
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  
+  .bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Small Devices */
+  
+  @media only screen and (max-width: 767px) {
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+      float: left;
+      width: 100%;
+    }
+  
+    /* Container */
+    .container {
+      padding: 1rem;
+      background-color: #eeee;
+    }
+  
+    /* Menu Title */
+    .title {
+      color: #2a2e46;
+      font-size: 2.75rem;
+      text-align: center;
+    }
+  
+    /* Menu Option */
+  
+    .content {
+      position: relative;
+      background-color: #fefefefe;
+      border-radius: 0.5rem;
+      border: 1px solid #bdb6b6;
+      margin: 1rem;
+    }
+  
+    .food-title {
+      position: absolute;
+      right: 0;
+      width: 7rem;
+      color: #2a2e46;
+      text-align: center;
+      border: 1px solid #bdb6b6;
+      border-top-right-radius: 0.5rem;
+    }
+  
+    .food-description {
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+  }
+  
+  /* Medium Devices */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 75%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    /* Container */
+    .container {
+      padding: 1rem;
+      background-color: #eeee;
+    }
+  
+    /* Menu Title */
+    .title {
+      color: #2a2e46;
+      font-size: 2.75rem;
+      text-align: center;
+    }
+  
+    /* Menu Option */
+  
+    .content {
+      position: relative;
+      background-color: #fefefefe;
+      border-radius: 0.5rem;
+      border: 1px solid #bdb6b6;
+      margin: 1rem;
+    }
+  
+    .food-title {
+      position: absolute;
+      right: 0;
+      width: 7rem;
+      color: #2a2e46;
+      text-align: center;
+      border: 1px solid #bdb6b6;
+      border-top-right-radius: 0.5rem;
+    }
+  
+    .food-description {
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+  }
+  
+  /* Large Devices */
+  @media (min-width: 993px) {
+    .title {
+      margin-bottom: 3rem;
+    }
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  
+  /* Container */
+  .container {
+    padding: 1rem;
+    background-color: #eeee;
+  }
+  
+  /* Menu Title */
+  .title {
+    color: #2a2e46;
+    font-size: 2.75rem;
+    text-align: center;
+  }
+  
+  /* Menu Option */
+  
+  .content {
+    position: relative;
+    background-color: #fefefefe;
+    border-radius: 0.5rem;
+    border: 1px solid #bdb6b6;
+    margin: 1rem;
+  }
+  
+  .food-title {
+    position: absolute;
+    right: 0;
+    width: 7rem;
+    color: #2a2e46;
+    text-align: center;
+    border: 1px solid #bdb6b6;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .food-description {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
